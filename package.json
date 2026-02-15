@@ -1,0 +1,20 @@
+{
+  "name": "plain-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Plain.com support platform",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "@team-plain/typescript-sdk": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.3"
+  }
+}
