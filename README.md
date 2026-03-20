@@ -1,6 +1,8 @@
 # Plain MCP Server
 
-An MCP (Model Context Protocol) server for the [Plain](https://plain.com) support platform. Provides read-only access to threads, customers, and support analytics.
+An MCP (Model Context Protocol) server for the [Plain](https://plain.com) support platform. Provides read-only access to threads, customers, and support analytics.'
+
+This is used locally in place of Plain not offering MCP support
 
 ## Tools
 
